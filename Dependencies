@@ -1,0 +1,9 @@
+library(ISLR)
+library(pROC)
+library(ROCR)
+library(corrplot)
+library(MASS) # for stepAIC
+library(boot) # for cross-validation
+library(vioplot) #Violin plots
+library(VIM) #missing data plot
+library(dplyr)
