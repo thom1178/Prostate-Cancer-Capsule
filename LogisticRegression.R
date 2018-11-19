@@ -118,8 +118,10 @@ par(mfrow = c(1,2))
 plot(factor(capsule), age, col=c("cyan", "red"), varwidth=T,names = c("No", "Yes"),
      ylab="Age",xlab="Capsule Penetration", cex.lab=1.4) #Does not indicate difference in plot
 
+#Indicate difference in plot
 plot(factor(capsule), psa, col=c("cyan", "red"), varwidth=T,names = c("No", "Yes"),
-     ylab="PSA",xlab="Capsule Penetration", cex.lab=1.4) #Indicate difference in plot
+     ylab="PSA",xlab="Capsule Penetration", 
+     cex.lab=1.4) 
 
 plot(factor(capsule), gleason, col=c("cyan", "red"), varwidth=T,names = c("No", "Yes"),
      ylab="Gleason",xlab="Capsule Penetration", cex.lab=1.4) #Possible differences
